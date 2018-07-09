@@ -1,0 +1,14 @@
+spring:
+  mail:
+    #不是邮箱密码，是授权密码
+    password: tmhasseyasujbjeh
+    #你的邮箱地址
+    username: 107630221@qq.com
+    #smtp地址
+    host: smtp.qq.com
+    #开启ssl
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
